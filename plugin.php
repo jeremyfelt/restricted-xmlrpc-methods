@@ -48,7 +48,7 @@ function rxm_filter_xmlrpc_methods() {
 		'wp.deletePage'                    => 'this:wp_deletePage',           // Required method in WordPress-FluxC-Android.
 		'wp.editPage'                      => 'this:wp_editPage',             // Required method in WordPress-FluxC-Android.
 		//'wp.getPageList'                   => 'this:wp_getPageList',
-		//'wp.getAuthors'                    => 'this:wp_getAuthors',
+		'wp.getAuthors'                    => 'this:wp_getAuthors',           // Used by MarsEdit.
 		'wp.getCategories'                 => 'this:mw_getCategories',        // Required method in WordPress-FluxC-Android.
 		'wp.getTags'                       => 'this:wp_getTags',              // Required method in WordPress-FluxC-Android.
 		'wp.newCategory'                   => 'this:wp_newCategory',          // Required method in WordPress-FluxC-Android.
